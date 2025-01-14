@@ -1,103 +1,21 @@
 {
-  "minecraft:recipes/transportation/mangrove_boat": {
-    "criteria": {
-      "in_water": "2025-01-14 20:16:51 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/crafting_table": {
     "criteria": {
-      "unlock_right_away": "2025-01-14 20:16:42 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/acacia_boat": {
-    "criteria": {
-      "in_water": "2025-01-14 20:16:51 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/cherry_boat": {
-    "criteria": {
-      "in_water": "2025-01-14 20:16:51 +0000"
+      "unlock_right_away": "2025-01-14 20:28:50 +0000"
     },
     "done": true
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
-      "minecraft:beach": "2025-01-14 20:19:48 +0000",
-      "minecraft:dark_forest": "2025-01-14 20:16:42 +0000",
-      "minecraft:jungle": "2025-01-14 20:24:46 +0000",
-      "minecraft:river": "2025-01-14 20:17:36 +0000",
-      "minecraft:bamboo_jungle": "2025-01-14 20:20:44 +0000"
+      "minecraft:beach": "2025-01-14 20:30:49 +0000",
+      "minecraft:dark_forest": "2025-01-14 20:30:29 +0000",
+      "minecraft:forest": "2025-01-14 20:35:05 +0000",
+      "minecraft:taiga": "2025-01-14 20:33:39 +0000",
+      "minecraft:river": "2025-01-14 20:31:58 +0000",
+      "minecraft:birch_forest": "2025-01-14 20:28:50 +0000",
+      "minecraft:old_growth_spruce_taiga": "2025-01-14 20:33:14 +0000"
     },
     "done": false
-  },
-  "minecraft:recipes/transportation/bamboo_raft": {
-    "criteria": {
-      "in_water": "2025-01-14 20:16:51 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/stick_from_bamboo_item": {
-    "criteria": {
-      "has_bamboo": "2025-01-14 20:20:47 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/spruce_boat": {
-    "criteria": {
-      "in_water": "2025-01-14 20:16:51 +0000"
-    },
-    "done": true
-  },
-  "minecraft:husbandry/balanced_diet": {
-    "criteria": {
-      "sweet_berries": "2025-01-14 20:22:25 +0000"
-    },
-    "done": false
-  },
-  "minecraft:recipes/building_blocks/bamboo_block": {
-    "criteria": {
-      "has_bamboo": "2025-01-14 20:20:47 +0000"
-    },
-    "done": true
-  },
-  "minecraft:husbandry/root": {
-    "criteria": {
-      "consumed_item": "2025-01-14 20:22:25 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/birch_boat": {
-    "criteria": {
-      "in_water": "2025-01-14 20:16:51 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/oak_boat": {
-    "criteria": {
-      "in_water": "2025-01-14 20:16:51 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/scaffolding": {
-    "criteria": {
-      "has_bamboo": "2025-01-14 20:20:47 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/jungle_boat": {
-    "criteria": {
-      "in_water": "2025-01-14 20:16:51 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/dark_oak_boat": {
-    "criteria": {
-      "in_water": "2025-01-14 20:16:51 +0000"
-    },
-    "done": true
   },
   "DataVersion": 3953
 }
