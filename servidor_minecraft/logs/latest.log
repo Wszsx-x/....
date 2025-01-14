@@ -1,7 +1,8 @@
-[20:28:05] [main/INFO]: Loading Minecraft 1.21 with Fabric Loader 0.16.3
-[20:28:05] [ForkJoinPool-1-worker-2/WARN]: The mod "dungeons_arise" contains invalid entries in its mod json:
+[20:48:29] [main/INFO]: Loading Minecraft 1.21 with Fabric Loader 0.16.3
+[20:48:29] [ForkJoinPool-1-worker-2/WARN]: The mod "dungeons_arise" contains invalid entries in its mod json:
 - Unsupported root entry "credits" at line 12 column 11
-[20:28:05] [main/INFO]: Loading 42 mods:
+[20:48:29] [main/INFO]: Loading 54 mods:
+	- chunky 1.4.16
 	- dungeons_arise 2.1.60
 	- fabric-api 0.102.0+1.21
 	   |-- fabric-api-base 0.4.42+6573ed8cd1
@@ -54,208 +55,104 @@
 	   \-- fabric-transitive-access-wideners-v1 6.1.0+176f9036d1
 	- fabricloader 0.16.3
 	   \-- mixinextras 0.4.1
+	- ferritecore 7.0.0
 	- java 21
+	- krypton 0.2.8
+	   \-- com_velocitypowered_velocity-native 3.3.0-SNAPSHOT
+	- lithium 0.13.1
 	- minecraft 1.21
-[20:28:05] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/..../servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[20:28:05] [main/INFO]: Compatibility level set to JAVA_17
-[20:28:06] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
-[20:28:12] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[20:28:13] [main/WARN]: Missing data pack terralith
-[20:28:13] [main/INFO]: Found new data pack dungeons_arise, loading it automatically
-[20:28:13] [main/INFO]: No existing world data, creating new world
-[20:28:14] [Worker-Main-3/ERROR]: Couldn't parse element minecraft:loot_table/dungeons_arise:chests/mines_treasure_medium - Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:set_nbt; Second: Not a json array: {"function":"minecraft:set_nbt","tag":"{Enchantments:[{id:\"minecraft:sharpness\",lvl:6s},{id:\"minecraft:looting\",lvl:3s}]}"}
-[20:28:14] [Worker-Main-3/ERROR]: Couldn't parse element minecraft:loot_table/dungeons_arise:chests/shiraz_palace/shiraz_palace_supply - Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:set_nbt; Second: Not a json array: {"function":"minecraft:set_nbt","tag":"{Potion:\"minecraft:strong_healing\"}"}; Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:set_nbt; Second: Not a json array: {"function":"minecraft:set_nbt","tag":"{Potion:\"minecraft:regeneration\"}"}; Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:set_nbt; Second: Not a json array: {"function":"minecraft:set_nbt","tag":"{CustomPotionEffects:[{Id:2b,Amplifier:5b,Duration:1200}],CustomPotionColor:16770928}"}; Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:set_nbt; Second: Not a json array: {"function":"minecraft:set_nbt","tag":"{CustomPotionEffects:[{Id:20b,Amplifier:5b,Duration:400}],CustomPotionColor:16770928}"}
-[20:28:14] [Worker-Main-3/ERROR]: Couldn't parse element minecraft:loot_table/dungeons_arise:chests/heavenly_challenger/heavenly_challenger_supply - com.google.gson.stream.MalformedJsonException: Use JsonReader.setLenient(true) to accept malformed JSON at line 1 column 12 path $ missed input: {"minecraft:item_name":"Ascension Tonic"}
-[20:28:14] [Worker-Main-3/ERROR]: Couldn't parse element minecraft:loot_table/dungeons_arise:chests/mines_treasure_big - Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:set_nbt; Second: Not a json array: {"function":"minecraft:set_nbt","tag":"{Enchantments:[{id:\"minecraft:sharpness\",lvl:6s},{id:\"minecraft:looting\",lvl:3s}]}"}
-[20:28:14] [Worker-Main-3/ERROR]: Couldn't parse element minecraft:loot_table/dungeons_arise:chests/illager_windmill/illager_windmill_barrels - com.google.gson.stream.MalformedJsonException: Use JsonReader.setLenient(true) to accept malformed JSON at line 1 column 10 path $ missed input: {"minecraft:item_name":"Illager Beer"}
-[20:28:14] [main/INFO]: Loaded 1290 recipes
-[20:28:14] [main/INFO]: Loaded 1399 advancements
-[20:28:15] [main/INFO]: Applied 0 biome modifications to 0 of 64 new biomes in 1.511 ms
-[20:28:15] [Server thread/INFO]: Starting minecraft server version 1.21
-[20:28:15] [Server thread/INFO]: Loading properties
-[20:28:15] [Server thread/INFO]: Default game type: SURVIVAL
-[20:28:15] [Server thread/INFO]: Generating keypair
-[20:28:15] [Server thread/INFO]: Starting Minecraft server on *:25565
-[20:28:15] [Server thread/INFO]: Using epoll channel type
-[20:28:15] [Server thread/INFO]: Preparing level "world"
-[20:28:28] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[20:28:28] [Worker-Main-2/INFO]: Preparing spawn area: 2%
-[20:28:28] [Worker-Main-2/INFO]: Preparing spawn area: 2%
-[20:28:29] [Worker-Main-1/INFO]: Preparing spawn area: 2%
-[20:28:29] [Worker-Main-3/INFO]: Preparing spawn area: 6%
-[20:28:30] [Worker-Main-3/INFO]: Preparing spawn area: 6%
-[20:28:30] [Worker-Main-2/INFO]: Preparing spawn area: 18%
-[20:28:31] [Worker-Main-1/INFO]: Preparing spawn area: 18%
-[20:28:31] [Worker-Main-3/INFO]: Preparing spawn area: 18%
-[20:28:32] [Worker-Main-1/INFO]: Preparing spawn area: 51%
-[20:28:32] [Worker-Main-3/INFO]: Preparing spawn area: 51%
-[20:28:33] [Worker-Main-1/INFO]: Preparing spawn area: 51%
-[20:28:33] [Worker-Main-1/INFO]: Preparing spawn area: 51%
-[20:28:34] [Server thread/INFO]: Time elapsed: 5751 ms
-[20:28:34] [Server thread/INFO]: Done (18.434s)! For help, type "help"
-[20:28:44] [User Authenticator #1/INFO]: UUID of player BloodyAX is 45d5e757-1cd5-4671-8966-7f877ed9bb4d
-[20:28:50] [Server thread/INFO]: BloodyAX[/127.72.237.115:51377] logged in with entity id 30 at (-6.5, 66.0, 0.5)
-[20:28:50] [Server thread/INFO]: BloodyAX joined the game
-[20:28:57] [Worker-Main-1/ERROR]: Block-attached entity at invalid position: class_2338{x=-283, y=-56, z=-275}
-[20:28:57] [Worker-Main-2/ERROR]: Block-attached entity at invalid position: class_2338{x=-413, y=-49, z=-217}
-[20:28:57] [Worker-Main-2/ERROR]: Block-attached entity at invalid position: class_2338{x=-418, y=-50, z=-208}
-[20:28:57] [Worker-Main-2/ERROR]: Block-attached entity at invalid position: class_2338{x=-281, y=-50, z=-279}
-[20:28:57] [Worker-Main-2/ERROR]: Block-attached entity at invalid position: class_2338{x=-281, y=-57, z=-280}
-[20:29:00] [Worker-Main-2/ERROR]: Failed to parse vibration listener for Sculk Shrieker: 'No key selector in MapLike[{event_delay:0,event_distance:0.0f,range:8,source:{pos:[I;-425,-56,-205],type:"minecraft:block"}}]'
-[20:29:00] [Worker-Main-2/ERROR]: Block-attached entity at invalid position: class_2338{x=-183, y=-57, z=-201}
-[20:29:00] [Worker-Main-2/ERROR]: Block-attached entity at invalid position: class_2338{x=-183, y=-58, z=-205}
-[20:29:00] [Worker-Main-1/ERROR]: Block-attached entity at invalid position: class_2338{x=-423, y=-50, z=-211}
-[20:29:00] [Worker-Main-1/ERROR]: Block-attached entity at invalid position: class_2338{x=-420, y=-50, z=-211}
-[20:29:00] [Worker-Main-1/ERROR]: Block-attached entity at invalid position: class_2338{x=-193, y=-45, z=-211}
-[20:29:00] [Worker-Main-1/ERROR]: Block-attached entity at invalid position: class_2338{x=-183, y=-57, z=-210}
-[20:29:00] [Worker-Main-1/ERROR]: Block-attached entity at invalid position: class_2338{x=-187, y=-49, z=-219}
-[20:29:00] [Worker-Main-1/ERROR]: Block-attached entity at invalid position: class_2338{x=-189, y=-45, z=-211}
-[20:29:00] [Worker-Main-1/ERROR]: Block-attached entity at invalid position: class_2338{x=-191, y=-45, z=-211}
-[20:29:00] [Worker-Main-1/ERROR]: Block-attached entity at invalid position: class_2338{x=-289, y=-57, z=-281}
-[20:29:00] [Worker-Main-1/ERROR]: Block-attached entity at invalid position: class_2338{x=-287, y=-56, z=-283}
-[20:29:00] [Worker-Main-1/ERROR]: Block-attached entity at invalid position: class_2338{x=-287, y=-57, z=-283}
-[20:29:31] [Server thread/INFO]: Incorrect argument for command
-[20:29:31] [Server thread/INFO]: ...p BloodyAX <--[HERE]
-[20:29:35] [Server thread/INFO]: Unknown or incomplete command, see below for error
-[20:29:35] [Server thread/INFO]: Op BloodyAX<--[HERE]
-[20:29:40] [Server thread/INFO]: Incorrect argument for command
-[20:29:40] [Server thread/INFO]: ...p BloodyAX <--[HERE]
-[20:29:44] [Server thread/INFO]: Unknown or incomplete command, see below for error
-[20:29:44] [Server thread/INFO]: heelp<--[HERE]
-[20:29:46] [Server thread/INFO]: /advancement (grant|revoke)
-[20:29:46] [Server thread/INFO]: /attribute <target> <attribute> (get|base|modifier)
-[20:29:46] [Server thread/INFO]: /execute (run|if|unless|as|at|store|positioned|rotated|facing|align|anchored|in|summon|on)
-[20:29:46] [Server thread/INFO]: /bossbar (add|remove|list|set|get)
-[20:29:46] [Server thread/INFO]: /clear [<targets>]
-[20:29:46] [Server thread/INFO]: /clone (<begin>|from)
-[20:29:46] [Server thread/INFO]: /damage <target> <amount> [<damageType>]
-[20:29:46] [Server thread/INFO]: /data (merge|get|remove|modify)
-[20:29:46] [Server thread/INFO]: /datapack (enable|disable|list)
-[20:29:46] [Server thread/INFO]: /debug (start|stop|function)
-[20:29:46] [Server thread/INFO]: /defaultgamemode <gamemode>
-[20:29:46] [Server thread/INFO]: /difficulty [peaceful|easy|normal|hard]
-[20:29:46] [Server thread/INFO]: /effect (clear|give)
-[20:29:46] [Server thread/INFO]: /me <action>
-[20:29:46] [Server thread/INFO]: /enchant <targets> <enchantment> [<level>]
-[20:29:46] [Server thread/INFO]: /experience (add|set|query)
-[20:29:46] [Server thread/INFO]: /xp -> experience
-[20:29:46] [Server thread/INFO]: /fill <from> <to> <block> [replace|keep|outline|hollow|destroy]
-[20:29:46] [Server thread/INFO]: /fillbiome <from> <to> <biome> [replace]
-[20:29:46] [Server thread/INFO]: /forceload (add|remove|query)
-[20:29:46] [Server thread/INFO]: /function <name> [<arguments>|with]
-[20:29:46] [Server thread/INFO]: /gamemode <gamemode> [<target>]
-[20:29:46] [Server thread/INFO]: /gamerule (announceAdvancements|blockExplosionDropDecay|commandBlockOutput|commandModificationBlockLimit|disableElytraMovementCheck|disableRaids|doDaylightCycle|doEntityDrops|doFireTick|doImmediateRespawn|doInsomnia|doLimitedCrafting|doMobLoot|doMobSpawning|doPatrolSpawning|doTileDrops|doTraderSpawning|doVinesSpread|doWardenSpawning|doWeatherCycle|drowningDamage|enderPearlsVanishOnDeath|fallDamage|fireDamage|forgiveDeadPlayers|freezeDamage|globalSoundEvents|keepInventory|lavaSourceConversion|logAdminCommands|maxCommandChainLength|maxCommandForkCount|maxEntityCramming|mobExplosionDropDecay|mobGriefing|naturalRegeneration|playersNetherPortalCreativeDelay|playersNetherPortalDefaultDelay|playersSleepingPercentage|projectilesCanBreakBlocks|randomTickSpeed|reducedDebugInfo|sendCommandFeedback|showDeathMessages|snowAccumulationHeight|spawnChunkRadius|spawnRadius|spectatorsGenerateChunks|tntExplosionDropDecay|universalAnger|waterSourceConversion)
-[20:29:46] [Server thread/INFO]: /give <targets> <item> [<count>]
-[20:29:46] [Server thread/INFO]: /help [<command>]
-[20:29:46] [Server thread/INFO]: /item (replace|modify)
-[20:29:46] [Server thread/INFO]: /kick <targets> [<reason>]
-[20:29:46] [Server thread/INFO]: /kill [<targets>]
-[20:29:46] [Server thread/INFO]: /list [uuids]
-[20:29:46] [Server thread/INFO]: /locate (structure|biome|poi)
-[20:29:46] [Server thread/INFO]: /loot (replace|insert|give|spawn)
-[20:29:46] [Server thread/INFO]: /msg <targets> <message>
-[20:29:46] [Server thread/INFO]: /tell -> msg
-[20:29:46] [Server thread/INFO]: /w -> msg
-[20:29:46] [Server thread/INFO]: /particle <name> [<pos>]
-[20:29:46] [Server thread/INFO]: /place (feature|jigsaw|structure|template)
-[20:29:46] [Server thread/INFO]: /playsound <sound> [master|music|record|weather|block|hostile|neutral|player|ambient|voice]
-[20:29:46] [Server thread/INFO]: /random (value|roll|reset)
-[20:29:46] [Server thread/INFO]: /reload
-[20:29:46] [Server thread/INFO]: /recipe (give|take)
-[20:29:46] [Server thread/INFO]: /return (<value>|fail|run)
-[20:29:46] [Server thread/INFO]: /ride <target> (mount|dismount)
-[20:29:46] [Server thread/INFO]: /say <message>
-[20:29:46] [Server thread/INFO]: /schedule (function|clear)
-[20:29:46] [Server thread/INFO]: /scoreboard (objectives|players)
-[20:29:46] [Server thread/INFO]: /seed
-[20:29:46] [Server thread/INFO]: /setblock <pos> <block> [destroy|keep|replace]
-[20:29:46] [Server thread/INFO]: /spawnpoint [<targets>]
-[20:29:46] [Server thread/INFO]: /setworldspawn [<pos>]
-[20:29:46] [Server thread/INFO]: /spectate [<target>]
-[20:29:46] [Server thread/INFO]: /spreadplayers <center> <spreadDistance> <maxRange> (<respectTeams>|under)
-[20:29:46] [Server thread/INFO]: /stopsound <targets> [*|master|music|record|weather|block|hostile|neutral|player|ambient|voice]
-[20:29:46] [Server thread/INFO]: /summon <entity> [<pos>]
-[20:29:46] [Server thread/INFO]: /tag <targets> (add|remove|list)
-[20:29:46] [Server thread/INFO]: /team (list|add|remove|empty|join|leave|modify)
-[20:29:46] [Server thread/INFO]: /teammsg <message>
-[20:29:46] [Server thread/INFO]: /tm -> teammsg
-[20:29:46] [Server thread/INFO]: /teleport (<location>|<destination>|<targets>)
-[20:29:46] [Server thread/INFO]: /tp -> teleport
-[20:29:46] [Server thread/INFO]: /tellraw <targets> <message>
-[20:29:46] [Server thread/INFO]: /tick (query|rate|step|sprint|unfreeze|freeze)
-[20:29:46] [Server thread/INFO]: /time (set|add|query)
-[20:29:46] [Server thread/INFO]: /title <targets> (clear|reset|title|subtitle|actionbar|times)
-[20:29:46] [Server thread/INFO]: /trigger <objective> [add|set]
-[20:29:46] [Server thread/INFO]: /weather (clear|rain|thunder)
-[20:29:46] [Server thread/INFO]: /worldborder (add|set|center|damage|get|warning)
-[20:29:46] [Server thread/INFO]: /jfr (start|stop)
-[20:29:46] [Server thread/INFO]: /ban-ip <target> [<reason>]
-[20:29:46] [Server thread/INFO]: /banlist [ips|players]
-[20:29:46] [Server thread/INFO]: /ban <targets> [<reason>]
-[20:29:46] [Server thread/INFO]: /deop <targets>
-[20:29:46] [Server thread/INFO]: /op <targets>
-[20:29:46] [Server thread/INFO]: /pardon <targets>
-[20:29:46] [Server thread/INFO]: /pardon-ip <target>
-[20:29:46] [Server thread/INFO]: /perf (start|stop)
-[20:29:46] [Server thread/INFO]: /save-all [flush]
-[20:29:46] [Server thread/INFO]: /save-off
-[20:29:46] [Server thread/INFO]: /save-on
-[20:29:46] [Server thread/INFO]: /setidletimeout <minutes>
-[20:29:46] [Server thread/INFO]: /stop
-[20:29:46] [Server thread/INFO]: /transfer <hostname> [<port>]
-[20:29:46] [Server thread/INFO]: /whitelist (on|off|list|add|remove|reload)
-[20:30:12] [Server thread/INFO]: Made BloodyAX a server operator
-[20:30:25] [Server thread/INFO]: [BloodyAX: Set own game mode to Creative Mode]
-[20:32:08] [Worker-Main-3/ERROR]: Block-attached entity at invalid position: class_2338{x=-413, y=-49, z=-217}
-[20:32:08] [Worker-Main-3/ERROR]: Block-attached entity at invalid position: class_2338{x=-178, y=-45, z=-85}
-[20:32:08] [Worker-Main-3/ERROR]: Block-attached entity at invalid position: class_2338{x=-178, y=-41, z=-89}
-[20:32:08] [Worker-Main-3/ERROR]: Block-attached entity at invalid position: class_2338{x=-172, y=-54, z=-92}
-[20:32:08] [Worker-Main-3/ERROR]: Block-attached entity at invalid position: class_2338{x=-172, y=-54, z=-93}
-[20:32:08] [Worker-Main-3/ERROR]: Block-attached entity at invalid position: class_2338{x=-175, y=-41, z=-90}
-[20:32:08] [Worker-Main-3/ERROR]: Block-attached entity at invalid position: class_2338{x=-281, y=-50, z=-279}
-[20:32:08] [Worker-Main-3/ERROR]: Block-attached entity at invalid position: class_2338{x=-281, y=-57, z=-280}
-[20:32:08] [Worker-Main-3/ERROR]: Block-attached entity at invalid position: class_2338{x=-423, y=-50, z=-211}
-[20:32:08] [Worker-Main-3/ERROR]: Block-attached entity at invalid position: class_2338{x=-420, y=-50, z=-211}
-[20:32:08] [Worker-Main-3/ERROR]: Block-attached entity at invalid position: class_2338{x=-195, y=-54, z=-92}
-[20:32:08] [Worker-Main-3/ERROR]: Block-attached entity at invalid position: class_2338{x=-192, y=-54, z=-88}
-[20:32:08] [Worker-Main-3/ERROR]: Block-attached entity at invalid position: class_2338{x=-192, y=-50, z=-85}
-[20:32:08] [Worker-Main-3/ERROR]: Block-attached entity at invalid position: class_2338{x=-183, y=-51, z=-89}
-[20:32:08] [Worker-Main-3/ERROR]: Block-attached entity at invalid position: class_2338{x=-186, y=-50, z=-90}
-[20:32:08] [Worker-Main-3/ERROR]: Block-attached entity at invalid position: class_2338{x=-186, y=-45, z=-87}
-[20:32:08] [Worker-Main-3/ERROR]: Block-attached entity at invalid position: class_2338{x=-189, y=-45, z=-84}
-[20:32:08] [Worker-Main-3/ERROR]: Block-attached entity at invalid position: class_2338{x=-289, y=-57, z=-281}
-[20:32:08] [Worker-Main-3/ERROR]: Block-attached entity at invalid position: class_2338{x=-287, y=-56, z=-283}
-[20:32:08] [Worker-Main-3/ERROR]: Block-attached entity at invalid position: class_2338{x=-287, y=-57, z=-283}
-[20:32:09] [Worker-Main-2/ERROR]: Block-attached entity at invalid position: class_2338{x=-418, y=-50, z=-208}
-[20:32:09] [Worker-Main-2/ERROR]: Block-attached entity at invalid position: class_2338{x=-177, y=-55, z=-77}
-[20:32:09] [Worker-Main-2/ERROR]: Block-attached entity at invalid position: class_2338{x=-181, y=-50, z=-73}
-[20:32:09] [Worker-Main-2/ERROR]: Block-attached entity at invalid position: class_2338{x=-172, y=-54, z=-70}
-[20:32:09] [Worker-Main-2/ERROR]: Block-attached entity at invalid position: class_2338{x=-283, y=-56, z=-275}
-[20:32:09] [Worker-Main-2/ERROR]: Failed to parse vibration listener for Sculk Shrieker: 'No key selector in MapLike[{event_delay:0,event_distance:0.0f,range:8,source:{pos:[I;-425,-56,-205],type:"minecraft:block"}}]'
-[20:32:09] [Worker-Main-2/ERROR]: Block-attached entity at invalid position: class_2338{x=-192, y=-54, z=-74}
-[20:32:09] [Worker-Main-2/ERROR]: Block-attached entity at invalid position: class_2338{x=-192, y=-50, z=-77}
-[20:32:09] [Worker-Main-2/ERROR]: Block-attached entity at invalid position: class_2338{x=-187, y=-50, z=-72}
-[20:32:09] [Worker-Main-2/ERROR]: Block-attached entity at invalid position: class_2338{x=-184, y=-45, z=-75}
-[20:32:09] [Worker-Main-2/ERROR]: Block-attached entity at invalid position: class_2338{x=-182, y=-45, z=-75}
-[20:32:45] [Worker-Main-2/ERROR]: Failed to parse vibration listener for Sculk Shrieker: 'No key selector in MapLike[{event_delay:0,event_distance:0.0f,range:8,source:{pos:[I;-425,-56,-205],type:"minecraft:block"}}]'
-[20:32:45] [Worker-Main-2/ERROR]: Block-attached entity at invalid position: class_2338{x=-320, y=-45, z=-203}
-[20:32:45] [Worker-Main-1/ERROR]: Block-attached entity at invalid position: class_2338{x=-418, y=-50, z=-208}
-[20:32:45] [Worker-Main-1/ERROR]: Block-attached entity at invalid position: class_2338{x=-318, y=-45, z=-204}
-[20:32:45] [Worker-Main-1/ERROR]: Block-attached entity at invalid position: class_2338{x=-318, y=-45, z=-202}
-[20:32:45] [Worker-Main-1/ERROR]: Block-attached entity at invalid position: class_2338{x=-283, y=-56, z=-275}
-[20:32:47] [Worker-Main-2/ERROR]: Block-attached entity at invalid position: class_2338{x=-423, y=-50, z=-211}
-[20:32:47] [Worker-Main-2/ERROR]: Block-attached entity at invalid position: class_2338{x=-289, y=-57, z=-281}
-[20:32:47] [Worker-Main-2/ERROR]: Block-attached entity at invalid position: class_2338{x=-287, y=-56, z=-283}
-[20:32:47] [Worker-Main-2/ERROR]: Block-attached entity at invalid position: class_2338{x=-287, y=-57, z=-283}
-[20:32:47] [Worker-Main-1/ERROR]: Block-attached entity at invalid position: class_2338{x=-420, y=-50, z=-211}
-[20:32:47] [Worker-Main-1/ERROR]: Block-attached entity at invalid position: class_2338{x=-413, y=-49, z=-217}
-[20:32:47] [Worker-Main-1/ERROR]: Block-attached entity at invalid position: class_2338{x=-281, y=-50, z=-279}
-[20:32:47] [Worker-Main-1/ERROR]: Block-attached entity at invalid position: class_2338{x=-281, y=-57, z=-280}
-[20:36:23] [Worker-Main-2/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
-[20:36:23] [Worker-Main-3/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
-[20:36:27] [Worker-Main-2/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
-[20:36:27] [Worker-Main-2/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
-[20:36:27] [Worker-Main-2/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
-[20:36:27] [Worker-Main-2/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
-[20:37:05] [Server thread/INFO]: BloodyAX lost connection: Disconnected
-[20:37:05] [Server thread/INFO]: BloodyAX left the game
+	- mr_dungeons_andtaverns 1-v4.4.4
+	- servercore 1.5.4+1.21
+	   |-- fabric-permissions-api-v0 0.3.1
+	   |-- org_yaml_snakeyaml 2.2
+	   |-- placeholder-api 2.4.0+1.21
+	   |-- space_arim_dazzleconf_dazzleconf-core 1.3.0-M2
+	   \-- space_arim_dazzleconf_dazzleconf-ext-snakeyaml 1.3.0-M2
+[20:48:30] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/..../servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[20:48:30] [main/INFO]: Compatibility level set to JAVA_17
+[20:48:30] [main/INFO]: Loaded configuration file for Lithium: 144 options available, 2 override(s) found
+[20:48:30] [main/WARN]: Force-disabling mixin 'alloc.blockstate.StateMixin' as rule 'mixin.alloc.blockstate' (added by mods [ferritecore]) disables it and children
+[20:48:30] [main/WARN]: Force-disabling mixin 'alloc.chunk_ticking.ServerChunkManagerMixin' as rule 'mixin.alloc.chunk_ticking' (added by mods [servercore]) disables it and children
+[20:48:31] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[20:48:38] [main/INFO]: Compression will use libdeflate (Linux x86_64), encryption will use OpenSSL 1.1.x (Linux x86_64)
+[20:48:38] [main/INFO]: [ServerCore] Loaded V1.5.4+1.21!
+[20:48:38] [main/INFO]: Krypton is now accelerating your Minecraft server's networking stack 🚀
+[20:48:38] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[20:48:38] [main/INFO]: Found new data pack mr_dungeons_andtaverns, loading it automatically
+[20:48:39] [Worker-Main-3/ERROR]: Couldn't parse element minecraft:loot_table/dungeons_arise:chests/shiraz_palace/shiraz_palace_supply - Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:set_nbt; Second: Not a json array: {"function":"minecraft:set_nbt","tag":"{Potion:\"minecraft:strong_healing\"}"}; Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:set_nbt; Second: Not a json array: {"function":"minecraft:set_nbt","tag":"{Potion:\"minecraft:regeneration\"}"}; Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:set_nbt; Second: Not a json array: {"function":"minecraft:set_nbt","tag":"{CustomPotionEffects:[{Id:2b,Amplifier:5b,Duration:1200}],CustomPotionColor:16770928}"}; Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:set_nbt; Second: Not a json array: {"function":"minecraft:set_nbt","tag":"{CustomPotionEffects:[{Id:20b,Amplifier:5b,Duration:400}],CustomPotionColor:16770928}"}
+[20:48:39] [Worker-Main-3/ERROR]: Couldn't parse element minecraft:loot_table/dungeons_arise:chests/heavenly_challenger/heavenly_challenger_supply - com.google.gson.stream.MalformedJsonException: Use JsonReader.setLenient(true) to accept malformed JSON at line 1 column 12 path $ missed input: {"minecraft:item_name":"Ascension Tonic"}
+[20:48:39] [Worker-Main-3/ERROR]: Couldn't parse element minecraft:loot_table/dungeons_arise:chests/mines_treasure_big - Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:set_nbt; Second: Not a json array: {"function":"minecraft:set_nbt","tag":"{Enchantments:[{id:\"minecraft:sharpness\",lvl:6s},{id:\"minecraft:looting\",lvl:3s}]}"}
+[20:48:39] [Worker-Main-3/ERROR]: Couldn't parse element minecraft:loot_table/dungeons_arise:chests/mines_treasure_medium - Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:set_nbt; Second: Not a json array: {"function":"minecraft:set_nbt","tag":"{Enchantments:[{id:\"minecraft:sharpness\",lvl:6s},{id:\"minecraft:looting\",lvl:3s}]}"}
+[20:48:39] [Worker-Main-3/ERROR]: Couldn't parse element minecraft:loot_table/dungeons_arise:chests/illager_windmill/illager_windmill_barrels - com.google.gson.stream.MalformedJsonException: Use JsonReader.setLenient(true) to accept malformed JSON at line 1 column 10 path $ missed input: {"minecraft:item_name":"Illager Beer"}
+[20:48:40] [main/INFO]: Loaded 1290 recipes
+[20:48:40] [main/ERROR]: Couldn't load advancements: [minecraft:wander_add_map, minecraft:give_quest_trader_trade]
+[20:48:40] [main/INFO]: Loaded 1433 advancements
+[20:48:41] [main/INFO]: Applied 0 biome modifications to 0 of 64 new biomes in 1.441 ms
+[20:48:41] [Server thread/INFO]: Starting minecraft server version 1.21
+[20:48:41] [Server thread/INFO]: Loading properties
+[20:48:41] [Server thread/INFO]: Default game type: SURVIVAL
+[20:48:41] [Server thread/INFO]: Generating keypair
+[20:48:41] [Server thread/INFO]: Starting Minecraft server on *:25565
+[20:48:41] [Server thread/INFO]: Using epoll channel type
+[20:48:41] [Server thread/INFO]: Preparing level "world"
+[20:48:44] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[20:48:48] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[20:48:48] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[20:48:48] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[20:48:48] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[20:48:48] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[20:48:48] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[20:48:48] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[20:48:48] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[20:48:48] [Server thread/INFO]: Time elapsed: 4025 ms
+[20:48:48] [Server thread/INFO]: Done (6.699s)! For help, type "help"
+[20:49:36] [User Authenticator #1/INFO]: UUID of player BloodyAX is 45d5e757-1cd5-4671-8966-7f877ed9bb4d
+[20:49:40] [Server thread/INFO]: BloodyAX[/127.72.237.115:33963] logged in with entity id 16 at (1229.5518433212292, 104.76332174686154, -549.8849029817518)
+[20:49:40] [Server thread/INFO]: BloodyAX joined the game
+[20:52:38] [Server thread/INFO]: Locating element minecraft:village_plains took 746 ms
+[20:53:10] [Server thread/INFO]: [BloodyAX: Teleported BloodyAX to 1200.500000, 102.106754, 816.500000]
+[20:53:14] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3309ms or 66 ticks behind
+[20:53:41] [Worker-Main-1/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[20:53:41] [Worker-Main-1/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[20:53:41] [Worker-Main-1/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[20:53:43] [Worker-Main-3/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[20:53:43] [Worker-Main-3/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[20:53:43] [Worker-Main-3/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[20:53:43] [Worker-Main-3/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[20:53:43] [Worker-Main-3/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[20:54:53] [Server thread/INFO]: Locating element dungeons_arise:abandoned_temple took 1560 ms
+[20:55:16] [Server thread/INFO]: [BloodyAX: Teleported BloodyAX to 3472.500000, 70.233112, -543.500000]
+[20:55:18] [Worker-Main-3/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[20:55:18] [Worker-Main-3/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[20:55:18] [Worker-Main-3/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[20:55:18] [Worker-Main-3/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[20:55:18] [Worker-Main-3/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[20:55:18] [Worker-Main-3/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[20:55:18] [Worker-Main-3/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[20:55:18] [Worker-Main-3/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[20:55:18] [Worker-Main-3/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[20:55:18] [Worker-Main-3/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[20:55:18] [Worker-Main-3/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[20:55:18] [Worker-Main-3/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[20:55:18] [Worker-Main-3/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[20:55:19] [Worker-Main-1/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[20:55:19] [Worker-Main-2/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[20:55:19] [Worker-Main-3/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[20:55:19] [Worker-Main-2/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[20:55:19] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2453ms or 49 ticks behind
+[20:55:20] [Worker-Main-1/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[20:55:20] [Worker-Main-3/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[20:55:20] [Worker-Main-3/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[20:55:21] [Worker-Main-2/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[20:55:21] [Worker-Main-3/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[20:55:22] [Worker-Main-1/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[20:55:22] [Worker-Main-3/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[20:55:22] [Worker-Main-1/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[20:55:22] [Worker-Main-2/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[20:55:23] [Worker-Main-1/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[20:55:23] [Worker-Main-1/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[20:55:23] [Worker-Main-2/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[20:55:23] [Worker-Main-2/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[20:55:27] [Worker-Main-1/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[20:56:18] [Server thread/INFO]: BloodyAX lost connection: Disconnected
+[20:56:18] [Server thread/INFO]: BloodyAX left the game
